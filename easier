@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "<>" >builtin1.c
+echo "<>" >errors1.c
+echo "<>" >getenv.c
+echo "<>" >lists.c
+echo "<>" >memory.c
+echo "<>" >shell.h
+echo "<>" >string1.c
+echo "<>" >_atoi.c
+echo "<>" >environ.c
+echo "<>" >exits.c
+echo "<>" >getinfo.c
+echo "<>" >lists1.c
+echo "<>" >parser.c
+echo "<>" >shell_loop.c
+echo "<>" >tokenizer.c
+echo "<>" >builtin.c
+echo "<>" >errors.c
+echo "<>" >getLine.c
+echo "<>" >history.c
+echo "<>" >main.c
+echo "<>" >realloc.c
+echo "<>" >string.c
+echo "<>" >vars.c
+
+git add .
+git commit -m "update"
+git push
